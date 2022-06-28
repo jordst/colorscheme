@@ -1,4 +1,5 @@
 set background=dark
+set colorcolumn=79
 hi clear
 set cursorline
 
@@ -21,10 +22,14 @@ hi ColorColumn ctermbg=8 guibg=Grey40
 
 hi Pmenu guibg=gray2 guifg=gray ctermbg=232 ctermfg=255
 hi PmenuSel guibg=gray10 guifg=deeppink ctermbg=232 ctermfg=205
-hi Search guifg=HotPink guibg=Gray2 gui=underline ctermfg=205 ctermbg=232 cterm=underline
+hi Search guifg=HotPink guibg=NONE gui=underline ctermfg=205 ctermbg=NONE cterm=underline
 hi IncSearch guibg=Gray2 guifg=cyan ctermbg=232 ctermfg=51
 
-hi SpecialKey guifg=Cyan gui=NONE cterm=NONE ctermfg=51
+hi TabLine guibg=gray0 gui=NONE
+hi TabLineSel guibg=gray0 guifg=HotPink gui=Bold
+hi TabLineFill guibg=gray0 guifg=gray0 gui=NONE
+
+hi SpecialKey guifg=gray50 gui=NONE cterm=NONE ctermfg=244
 hi MoreMsg guifg=Green gui=NONE cterm=NONE ctermfg=46
 hi Visual guifg=NONE guibg=gray15 cterm=NONE ctermfg=235
 hi operator	guifg=orange ctermfg=214
