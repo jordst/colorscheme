@@ -1,4 +1,6 @@
-set background=dark
+if &background != "dark"
+	set background=dark
+endif
 hi clear
 set cursorline
 
@@ -10,15 +12,17 @@ let g:colors_name = "fms"
 
 hi Normal guifg=gray guibg=Gray2 ctermbg=232 gui=NONE cterm=NONE
 hi NonText guibg=Gray2 ctermbg=232 guifg=MediumPurple1
-hi Cursor guibg=White guifg=Black ctermbg=231 ctermfg=16
-hi lCursor guibg=White ctermbg=231
+hi Visual guifg=NONE guibg=gray15 cterm=NONE ctermfg=235
+hi ColorColumn ctermbg=8 guibg=Grey40
+
 hi LineNr guifg=gray ctermfg=245 gui=NONE cterm=NONE
-hi CursorLineNr guifg=yellow ctermfg=226 cterm=Bold gui=Bold
 hi LineNrAbove guifg=gray ctermfg=244
 hi LineNrBelow guifg=gray ctermfg=244
+
+hi Cursor guibg=White guifg=Black ctermbg=231 ctermfg=16
+hi lCursor guibg=White ctermbg=231
+hi CursorLineNr guifg=yellow ctermfg=226 cterm=Bold gui=Bold
 hi CursorLine cterm=NONE term=NONE ctermfg=none ctermbg=234 guibg=Grey10 guifg=NONE
-hi ColorColumn ctermbg=8 guibg=Grey40
-hi Visual guifg=NONE guibg=gray15 cterm=NONE ctermfg=235
 
 hi Pmenu guibg=gray2 guifg=gray ctermbg=232 ctermfg=255
 hi PmenuSel guibg=gray10 guifg=deeppink ctermbg=232 ctermfg=205
