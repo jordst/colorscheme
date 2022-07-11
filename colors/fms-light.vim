@@ -7,6 +7,15 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "fms-light"
+let g:normal_color = "#b4eeb4"
+let g:normal_ctermbg = "157" " DarkSeaGreen2
+let g:statuslineNC_color = "#f0fff0"
+let g:statusline_color = "Green"
+let g:statusline_background = "Black"
+let g:statusline_ctermbg = "16" " black
+let g:statusline_ctermfg = "46" " green1
+let g:statuslineNC_ctermfg = "194" " honeydew2
+let g:statuslineNC_ctermbg = "16" " black
 
 hi Normal guifg=black guibg=#f0fff0 ctermbg=194 ctermfg=16 gui=NONE cterm=NONE
 hi NonText guibg=#f0fff0 ctermbg=194 ctermfg=127 guifg=#a04bf0
@@ -49,13 +58,3 @@ hi DiffDelete guibg=DarkMagenta ctermbg=51
 hi Todo guifg=Black ctermfg=16
 hi Underlined guifg=Blue gui=NONE cterm=NONE ctermfg=21
 hi Ignore guifg=Black ctermfg=16
-
-let g:normal_color = "#b4eeb4"
-let g:normal_ctermbg = "157" " DarkSeaGreen2
-let g:statuslineNC_color = "#f0fff0"
-let g:statusline_color = "Green"
-let g:statusline_background = "Black"
-let g:statusline_ctermbg = "16" " black
-let g:statusline_ctermfg = "46" " green1
-let g:statuslineNC_ctermfg = "194" " honeydew2
-let g:statuslineNC_ctermbg = "16" " black

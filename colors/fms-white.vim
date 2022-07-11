@@ -9,6 +9,15 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "fms-white"
+let normal_color = "White"
+let normal_ctermbg = "231" " White
+let statuslineNC_color = "gray20"
+let statusline_color = "Violet"
+let statusline_background = "Black"
+let statusline_ctermbg = "16" " black
+let statusline_ctermfg = "177" " violet
+let statuslineNC_ctermfg = "231" " gray3
+let statuslineNC_ctermbg = "16" " White
 
 hi Normal guifg=black guibg=white ctermbg=231 ctermfg=16 gui=NONE cterm=NONE
 hi NonText guibg=white ctermbg=231 ctermfg=127 guifg=#a04bf0
@@ -52,12 +61,3 @@ hi Todo guifg=Black ctermfg=16
 hi Underlined guifg=Blue gui=NONE cterm=NONE ctermfg=21
 hi Ignore guifg=Black ctermfg=16
 
-let normal_color = "White"
-let normal_ctermbg = "231" " White
-let statuslineNC_color = "gray20"
-let statusline_color = "Violet"
-let statusline_background = "Black"
-let statusline_ctermbg = "16" " black
-let statusline_ctermfg = "177" " violet
-let statuslineNC_ctermfg = "231" " gray3
-let statuslineNC_ctermbg = "16" " White
