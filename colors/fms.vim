@@ -53,3 +53,13 @@ hi DiffDelete guibg=Cyan ctermbg=51
 hi Todo guifg=Black ctermfg=16
 hi Underlined guifg=Blue gui=NONE cterm=NONE ctermfg=21
 hi Ignore guifg=Black ctermfg=16
+
+let g:normal_color = "White"
+let g:normal_ctermbg = "231" " White
+let g:statuslineNC_color = "gray20"
+let g:statusline_color = "Violet"
+let g:statusline_background = "Black"
+let g:statusline_ctermbg = "16" " black
+let g:statusline_ctermfg = "177" " violet
+let g:statuslineNC_ctermfg = "232" " gray3
+let g:statuslineNC_ctermbg = "231" " White
