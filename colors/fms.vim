@@ -10,8 +10,11 @@ endif
 
 let g:colors_name = "fms"
 let g:normal_color = "White"
+let g:normal_colorfg = "Black"
 let g:normal_ctermbg = "231" " White
-let g:statuslineNC_color = "gray20"
+let g:normal_ctermfg = "16" " black
+let g:statuslineNC_color = "gray2"
+let g:statuslineNCbg = "White"
 let g:statusline_color = "Violet"
 let g:statusline_background = "Black"
 let g:statusline_ctermbg = "16" " black

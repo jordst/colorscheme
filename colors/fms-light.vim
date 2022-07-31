@@ -8,8 +8,11 @@ endif
 
 let g:colors_name = "fms-light"
 let g:normal_color = "#b4eeb4"
+let g:normal_colorfg = "Black"
 let g:normal_ctermbg = "157" " DarkSeaGreen2
+let g:normal_ctermfg = "16" " black
 let g:statuslineNC_color = "#f0fff0"
+let g:statuslineNCbg = "Black"
 let g:statusline_color = "Green"
 let g:statusline_background = "Black"
 let g:statusline_ctermbg = "16" " black

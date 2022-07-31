@@ -9,11 +9,14 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "fms-white"
-let normal_color = "White"
-let normal_ctermbg = "231" " White
-let statuslineNC_color = "gray20"
-let statusline_color = "Violet"
-let statusline_background = "Black"
+let normal_color = "Black"
+let g:normal_colorfg = "White"
+let normal_ctermbg = "16" " Black
+let normal_ctermfg = "231" " Black
+let statuslineNC_color = "White"
+let statuslineNCbg = "Black"
+let statusline_color = "Black"
+let statusline_background = "White"
 let statusline_ctermbg = "16" " black
 let statusline_ctermfg = "177" " violet
 let statuslineNC_ctermfg = "231" " gray3
@@ -43,7 +46,7 @@ hi TabLineFill guibg=white guifg=#f0fff0 gui=NONE ctermbg=231 ctermfg=231 cterm=
 
 hi SpecialKey guifg=gray50 gui=NONE cterm=NONE ctermfg=244
 hi operator	guifg=#a04bf0 ctermfg=127
-hi Comment guifg=#b22222 gui=NONE cterm=NONE ctermfg=52
+hi Comment guifg=gray50 gui=NONE cterm=NONE ctermfg=244
 hi Constant guifg=#8b226e gui=NONE cterm=NONE ctermfg=129
 hi Special guifg=#8b226e gui=NONE cterm=NONE ctermfg=129
 hi Identifier guifg=#0000fa gui=NONE cterm=NONE ctermfg=21
@@ -60,4 +63,3 @@ hi DiffDelete guibg=DarkMagenta ctermbg=51
 hi Todo guifg=Black ctermfg=16
 hi Underlined guifg=Blue gui=NONE cterm=NONE ctermfg=21
 hi Ignore guifg=Black ctermfg=16
-
